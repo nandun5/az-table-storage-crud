@@ -1,7 +1,7 @@
 ﻿using Azure;
 using Azure.Data.Tables;
 
-string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=devexcstesteastrgb107;AccountKey=uR6LTZJYRYMRWKo7fWI1A9LcmufO72tXF3tEFknavbIWa1iUA2E3qKK3VfB4M5b1X3efAYYNgCEl+AStGWWgTw==;EndpointSuffix=core.windows.net";
+string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=XXXXXXXXXXXXXXXX;AccountKey=XXXXXXXXXXXXXXXXXXXX;EndpointSuffix=core.windows.net";
 
 TableClient table = new TableClient(ConnectionString, "mytable3");
 
